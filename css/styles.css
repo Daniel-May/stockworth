@@ -27,7 +27,6 @@ nav {
 	width: 70%;
 	text-align: center;
 	margin: 0 auto;
-	border: 1px dashed red;
 	font-size: 20px;
 }
 
@@ -83,9 +82,10 @@ li {
 
 #services-container {
 	width: 70%;
-	margin: 0 auto;
+	margin: 40px auto;
 	text-align: center;
 	background-color: #f1f3f4;
+	border: 2px solid #093145;
 }
 
 #services-container h2 {
@@ -106,12 +106,42 @@ li {
 .service-tile {
 	text-align: center;
 	max-width: 250px;
+	margin-bottom: 40px;
+	
 }
 
 .service-tile p {
 	display: inline-block;
 	width: 100%;
 
+}
+
+#team-container {
+	width: 100%;
+	background-color: #093145;
+	text-align: center;
+	border-top: 3px solid #EBC944;
+}
+
+#team-container h2 {
+	padding: 40px;
+}
+
+#members {
+	display: flex;
+	justify-content: space-around;
+}
+
+.member-card {
+	text-align: center;
+	color: white;
+}
+
+.member-card img {
+	height: 175px;
+	width: 175px;
+	border-radius: 50%;
+	border: 2px solid #EBC944;
 }
 
 
