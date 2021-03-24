@@ -46,16 +46,25 @@ li {
 	display: flex;
 	width: 70%;
 	margin: 50px auto;
+	align-items: center;
+	background-color: #f1f3f4;
 }
 
 #mission-container img {
-	height: 200px;
-	width: 300px;
+	height: 250px;
+	width: 350px;
 }
 
 #mission-container p {
-	width: 350px;
+	width: 450px;
 	font-size: 20px;
+	margin: 0 auto;
+
+}
+
+#mission {
+	width: 600px;
+	text-align: center;
 }
 
 
