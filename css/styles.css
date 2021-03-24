@@ -50,9 +50,22 @@ li {
 	background-color: #f1f3f4;
 }
 
+#image-text {
+	position: absolute;
+	z-index: 5;
+	left: -600px;
+	right: 0px;
+	text-align: center;
+	color: red;
+	font-size: 25px;
+}
+
+
 #mission-container img {
 	height: 250px;
 	width: 350px;
+	opacity: 0.7;
+	border-right: 2px solid #093145;
 }
 
 #mission-container p {
@@ -65,6 +78,7 @@ li {
 #mission {
 	width: 600px;
 	text-align: center;
+	margin: 0 auto;
 }
 
 
