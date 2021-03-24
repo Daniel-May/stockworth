@@ -42,5 +42,21 @@ li {
 
 }
 
+#mission-container {
+	display: flex;
+	width: 70%;
+	margin: 50px auto;
+}
+
+#mission-container img {
+	height: 200px;
+	width: 300px;
+}
+
+#mission-container p {
+	width: 350px;
+	font-size: 20px;
+}
+
 
 
