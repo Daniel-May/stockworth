@@ -21,6 +21,7 @@ header {
 h1 {
     font-family: 'Gruppo', cursive;
 	color: #EBC944;
+	padding: 5px;
 }
 
 nav {
@@ -125,6 +126,7 @@ li {
 
 #team-container h2 {
 	padding: 40px;
+	color: #EBC944;
 }
 
 #members {
@@ -135,6 +137,7 @@ li {
 .member-card {
 	text-align: center;
 	color: white;
+	margin-bottom: 50px;
 }
 
 .member-card img {
@@ -142,6 +145,16 @@ li {
 	width: 175px;
 	border-radius: 50%;
 	border: 2px solid #EBC944;
+}
+
+footer {
+	width: 100%;
+	background-color: #f1f3f4;
+	text-align: center;
+}
+
+#copyright {
+	text-align: left;
 }
 
 
