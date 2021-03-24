@@ -10,13 +10,36 @@
 }
 
 header {
+	display: block;
     background-color: #093145;
-	width: 100%;
+	width: 70%;
 	text-align: center;
+	height: 50px;
+	margin: 0 auto;
 }
 
 h1 {
     font-family: 'Gruppo', cursive;
+	color: #EBC944;
+}
+
+nav {
+	width: 70%;
+	text-align: center;
+	margin: 0 auto;
+	border: 1px dashed red;
+	font-size: 20px;
+}
+
+ul {
+	list-style: none;
+
+}
+
+li {
+	display: inline-block;
+	margin: 5px 20px;
+
 }
 
 
