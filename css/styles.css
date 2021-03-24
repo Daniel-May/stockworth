@@ -1,0 +1,21 @@
+/** GOOGLE FONTS **/
+
+@import url('https://fonts.googleapis.com/css2?family=Gruppo&display=swap');
+
+
+* {
+	box-sizing: border-box;
+	margin: 0;
+	padding: 0;
+}
+
+header {
+    
+}
+
+h1 {
+    font-family: 'Gruppo', cursive;
+}
+
+
+
