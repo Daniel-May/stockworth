@@ -10,7 +10,9 @@
 }
 
 header {
-    
+    background-color: #093145;
+	width: 100%;
+	text-align: center;
 }
 
 h1 {
