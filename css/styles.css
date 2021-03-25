@@ -172,9 +172,18 @@ footer h4, p {
 
 @media only screen and (max-width:480px) {
 
+	header {
+		height: 60px;
+	}
+
 	h1 {
 		font-size: 24px;
-		padding: 10px;
+		padding: 15px;
+		
+	}
+
+	nav {
+		width: 100%;
 	}
 	
 	#image-text {
@@ -201,8 +210,9 @@ footer h4, p {
 
 	#mission-container p {
 		display: block;
-		width: 250px;
+		width: 270px;
 		font-size: 15px;
+		padding: 20px;
 	}
 
 	#services-container {
